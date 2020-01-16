@@ -5,11 +5,12 @@
   "description": "Remove YouTube's sourrinding countent, besides the video itself",
   "homepage_url": "http://gillchristian.xyz",
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["src/background.js"],
     "persistent": true
   },
   "browser_action": {
-    "default_title": "YouTube Distraction Free"
+    "default_title": "YouTube Distraction Free",
+    "default_icon": "assets/disabled.png"
   },
-  "permissions": ["https://*/*", "http://*/*", "tabs"]
+  "permissions": ["https://*/*", "http://*/*", "tabs", "storage"]
 }
