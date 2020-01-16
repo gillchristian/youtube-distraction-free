@@ -12,5 +12,12 @@
     "default_title": "YouTube Distraction Free",
     "default_icon": "assets/disabled.png"
   },
-  "permissions": ["https://*/*", "http://*/*", "tabs", "storage"]
+  "permissions": [
+    "https://www.youtube.com/*",
+    "http://www.youtube.com/*",
+    "https://youtube.com/*",
+    "http://youtube.com/*",
+    "tabs",
+    "storage"
+  ]
 }
